@@ -1,6 +1,14 @@
-# ireumeunAko 🐛 Here's a little bit about myself from scratch!
+# Ireumeun Ako Charlene 🐛 Here's a little bit about myself from scratch!
 
-![This is life](C:\Users\cbkay\OneDrive\Desktop\BootCamp workspace\ireumeunAko\Develope\images\mediccc.PNG)
+![This is life](Develope\images\readME.jpgg)
+
+
+### Being half Korean and half Filipino, I took half of each greeting from each side my ethnicity's mother tongue as inspiration.
+* In tagalog, ang pangalan ko, is how to say my name is.
+* In korean, nae i-reum-eun, is the casual way to say my name is.
+
+## For my work in progress portfolio the acceptance criteria is as follows:
+
 
 ### GIVEN 
 * I need to sample a potential employee's previous work.
