@@ -3,9 +3,9 @@
 <!-- ![This is life](Develope\images\thisLife.png?raw=true) WORK ON THIS LAST -->
 
 
-### Being half Korean and half Filipino, I took half of each greeting from each side my ethnicity's mother tongue as inspiration.
-* In tagalog, ang pangalan ko, is how to say my name is.
-* In korean, nae i-reum-eun, is the casual way to say my name is.
+### Being half Korean and half Filipino, I took half of each greeting from each side of my ethnicity's mother tongue as inspiration.
+* In tagalog, ang pangalan ko, is how to say, "my name is".
+* In korean, nae i-reum-eun, is the casual way to say, "my name is".
 
 ## For my work in progress portfolio the acceptance criteria is as follows:
 

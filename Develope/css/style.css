@@ -13,4 +13,24 @@ body {
 
 
 
+/* 
+img {
+    opacity:0.4;
+    filter:alpha(opacity=40); 
+  }
+  img:hover {
+    opacity:1.0;
+    filter:alpha(opacity=100); 
+  }
 
+  img {
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Colossoma_macropomum_01.jpg/800px-Colossoma_macropomum_01.jpg" /> */
