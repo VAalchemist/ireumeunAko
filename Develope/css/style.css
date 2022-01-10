@@ -24,7 +24,6 @@ body {
 }
 
 .header a { 
-
   color: #471616;
   text-decoration: none;
 }
@@ -35,6 +34,7 @@ body {
 }
 
 .header nav {
+  height: 150px;
   margin-left: auto;
   padding-top: 15px;
   margin-right: 20px;
@@ -43,16 +43,34 @@ body {
   font-size: 15px;
 }
 
+.myPhoto {
+  height: 250px;
+  width: auto;
+  float: left;
+  padding-right: 20%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
 .header nav ul li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 p {
   font-size: 16px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
+}
+
+.hero {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("Develope/images/thisLife.png");
+  background-size: cover;
+  background-position: center;
 }
    
 
