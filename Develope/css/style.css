@@ -24,6 +24,7 @@ body {
 }
 
 .header a { 
+  font-size: 13px;
   color: #471616;
   text-decoration: none;
 }
@@ -55,7 +56,7 @@ body {
 .header nav ul li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 p {
@@ -71,6 +72,24 @@ p {
   background-image: url("Develope/images/thisLife.png");
   background-size: cover;
   background-position: center;
+}
+
+
+
+
+
+
+
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
 }
    
 
