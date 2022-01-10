@@ -1,6 +1,6 @@
-# Ireumeun Ako Charlene 🐛 Here's a little bit about myself from scratch!
+# Ireumeun Ako Charlene 🧙 Here's a little bit about myself from scratch!
 
-![This is life](Develope\images\thisLife.png?raw=true)
+<!-- ![This is life](Develope\images\thisLife.png?raw=true) WORK ON THIS LAST -->
 
 
 ### Being half Korean and half Filipino, I took half of each greeting from each side my ethnicity's mother tongue as inspiration.
