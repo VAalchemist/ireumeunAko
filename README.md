@@ -23,6 +23,6 @@ WHEN I resize the page or view the site on various screens and devices.
 THEN I am presented with a responsive layout that adapts to my viewport.
 ```
 
-![drowning lego man](https://raw.githubusercontent.com/VAalchemist/)
+![drowning lego man](https://raw.githubusercontent.com/VAalchemist/ireumeunAko/feature/header/Develope/images/thisLife.png)
 
  `Check it out` [here!](https://vaalchemist.github.io/ireumeunAko/)
