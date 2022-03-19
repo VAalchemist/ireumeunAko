@@ -3,7 +3,8 @@
 ### Being half Korean and half Filipino, I took half of each greeting from each side of my ethnicity's mother tongue as inspiration.
 ```
 In tagalog, ang pangalan ko, 
-is how to say, "my name is".<br>
+is how to say, "my name is".
+
 In korean, nae i-reum-eun, 
 is the casual way to say, "my name is".
 ```
