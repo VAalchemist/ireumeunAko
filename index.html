@@ -5,36 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Totally Professiona</title>
+    <title>Totally Professional</title>
+    <link rel="stylesheet" href="Develope/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
 </head>
     
-    <body>
+    <body class="bg-fixed bg-no-repeat bg-cover bg-center bio-font text-indigo-300"
+    style="background-image: url(Develope/images/bg1.png);">
         <!--=== HEADER/NAV BAR ===-->
-        <header class="">
-            <h1>Charlene Kim</h1>
-            <nav> 
-                <img src="Develope\images\thouHeader.png" alt="Me and My Cats" class="myPhoto"/>
-                <ul>
-                    <li><a href="#about">🌟About Me</a></li>
-                    <li><a href="#work">🌟My Work</a></li>
-                    <li><a href="#contact">🌟Contact Me</a></li>
-                </ul>
-            </nav>
+        <header class="dropdown w-full flex justify-center justify-between px-4 py-3">
+
+        <button onclick="myFunction()" class="">        
+            <svg class="dropbtn text-gray-300 hover:text-indigo-300 fill-current" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
+                <path fill="currentColor" fill-rule="evenodd"
+                    d="M1.5 3a.5.5 0 0 0 0 1h12a.5.5 0 0 0 0-1h-12ZM1 7.5a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1h-12a.5.5 0 0 1-.5-.5Zm0 4a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1h-12a.5.5 0 0 1-.5-.5Z"
+                    clip-rule="evenodd" />
+            </svg>
+        </button>
+        
+        <div id="myDropdown" class="dropdown-content text-center my-12">
+            <a href="#about" class="hover:text-indigo-400">About Me</a>
+            <a href="#work" class="hover:text-indigo-400">My Work</a>
+            <a href="#contact" class="hover:text-indigo-400">Contact Me</a>            
+        </div>
+
+        <img src="Develope\images\intial2.png" alt="my initials" class="w-24 h-20 rounded-full" />
         </header>
         
-        <section class=""></section>
+        <!-- <section class=""></section>
         
         <main class=""> 
             <section id="about" class="">
-                 <h2>About Me</h2>
+                <h2>About Me</h2>
                     <p>
                         THANGS
                     </p>
             </section>
             
             <section id="work" class="">
-                <!-- <img src="..." <-- class="float-right" alt="..." /> -->
+                <img src="..." <-- class="float-right" alt="..." />
                 <h2>My Work</h2>
                     <article class="">
                         <h3>JOB1</h3>
@@ -56,7 +66,7 @@
             </section>
             
             <section id="contact" class="">
-                <!-- <img src="..." <--class="float-left" alt="..." /> -->
+                <img src="..." <--class="float-left" alt="..." />
                 <h2>Contact Me</h2>
                 <nav>
                     <ul>
@@ -74,7 +84,27 @@
             <p>
                 &copy; 2022 Coding Conjurer, Inc.
             </p>
-        </footer>
+        </footer> -->
     
+    <script>/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
     </body>
     </html>

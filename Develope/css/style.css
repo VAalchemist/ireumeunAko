@@ -1,0 +1,26 @@
+.bio-font{
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 1;
+}
+    
+.dropdown-content a {
+  padding: 4px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {
+  display: block;
+}
