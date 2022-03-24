@@ -6,85 +6,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Totally Professional</title>
-    <link rel="stylesheet" href="Develope/css/style.css" />
+    <link rel="stylesheet" href="Develope/css/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
 </head>
     
-    <body class="bg-fixed bg-no-repeat bg-cover bg-center bio-font text-indigo-300"
-    style="background-image: url(Develope/images/bg1.png);">
+<body class="bg-fixed bg-no-repeat bg-cover bg-center bio-font text-indigo-200" style="background-image: url(Develope/images/bg1.png);">
+
         <!--=== HEADER/NAV BAR ===-->
-        <header class="dropdown w-full flex justify-center justify-between px-4 py-3">
+<header class="dropdown w-full flex justify-center justify-between mb-96 px-4 py-3 border-b-4 border-gray-800">
+    <div class="px-2 w-full">
+        <nav class=" flex items-center justify-between ">
+            <img src="Develope\images\intial2.png" alt="my initials" class="w-24 h-20 rounded-full" />
+            <button type="button" onclick="myFunction()" class="text-blue-300 hover:text-gray-400">
+                <svg class="dropbtn fill-current mr-4" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M1.5 3a.5.5 0 0 0 0 1h12a.5.5 0 0 0 0-1h-12ZM1 7.5a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1h-12a.5.5 0 0 1-.5-.5Zm0 4a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1h-12a.5.5 0 0 1-.5-.5Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
 
-        <button onclick="myFunction()" class="">        
-            <svg class="dropbtn text-gray-300 hover:text-indigo-300 fill-current" xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
-                <path fill="currentColor" fill-rule="evenodd"
-                    d="M1.5 3a.5.5 0 0 0 0 1h12a.5.5 0 0 0 0-1h-12ZM1 7.5a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1h-12a.5.5 0 0 1-.5-.5Zm0 4a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1h-12a.5.5 0 0 1-.5-.5Z"
-                    clip-rule="evenodd" />
-            </svg>
-        </button>
-        
-        <div id="myDropdown" class="dropdown-content text-center my-12">
-            <a href="#about" class="hover:text-indigo-400">About Me</a>
-            <a href="#work" class="hover:text-indigo-400">My Work</a>
-            <a href="#contact" class="hover:text-indigo-400">Contact Me</a>            
-        </div>
+            <div id="myDropdown" class="dropdown-content bio-font2 text-gray-400 text-center text-sm font-bold pl-14 pt-24 mt-4 right-0">
+                <a href="#about" class="hover:text-indigo-200">About Me</a>
+                <a href="#work" class="hover:text-indigo-200">My Work</a>
+                <a href="#contact" class="hover:text-indigo-200">Contact Me</a>
+            </div>
+        </nav>
 
-        <img src="Develope\images\intial2.png" alt="my initials" class="w-24 h-20 rounded-full" />
-        </header>
+        <section class="relative my-8 py-28">
+            <h1 class="text-4xl text-blue-200 text-center">Welcome in, I'm Charlene!</h1>
+
+            <div class=" mt-4 flex">                
+                <div
+                    class="absolute right-0 border-4 border-gray-800 rounded-t-full flex justify-center items-center">
+                    <img src="/Develope/images/auto bio.jpg" class="w-32 rounded-t-full" />
+                </div>
+            </div>
+        </section>
+    </div>
+</header>
+
+
+
+
         
-        <!-- <section class=""></section>
-        
-        <main class=""> 
-            <section id="about" class="">
-                <h2>About Me</h2>
-                    <p>
-                        THANGS
-                    </p>
-            </section>
-            
-            <section id="work" class="">
-                <img src="..." <-- class="float-right" alt="..." />
-                <h2>My Work</h2>
-                    <article class="">
-                        <h3>JOB1</h3>
-                        <img src="Develope\images\thoseGames.PNG"  alt="Game Consoles and Controllers" class="image"/>
-                        <p class=""><div class="t">THANGS</div></p>
-                    </article>
-                
-                    <article class="r">
-                        <h3>JOB2</h3>
-                        <a href="https://www.charliekimmusician.com/"><img src="Develope\images\profeshh.PNG" alt="Charlie Kim Headshot" class=""/></a>
-                        <p class=""><div class="">THANGS</div></p>
-                    </article>
-                
-                    <article class="r">
-                        <h3>JOB3</h3>
-                        <img src="Develope\images\mediccc.PNG" alt="Medical Symbols Banner" class=""/>
-                        <p class=""><div class="">THANGS</div></p>
+    <main class="px-4 py-2">
+        <section id="work" class="">
+            <img src="..." <-- class="float-right" alt="..." />
+            <h2 class="text-orange-200">My Work</h2>
+                <article class="">
+                    <h3>JOB1</h3>
+                    <img src="Develope\images\thoseGames.PNG"  alt="Game Consoles and Controllers" class="image"/>
+                    <p class=""><div class="t">THANGS</div></p>
                 </article>
-            </section>
+                
+                <article class="r">
+                    <h3>JOB2</h3>
+                    <a href="https://www.charliekimmusician.com/"><img src="Develope\images\profeshh.PNG" alt="Charlie Kim Headshot" class=""/></a>
+                    <p class=""><div class="">THANGS</div></p>
+                </article>
+                
+                <article class="r">
+                    <h3>JOB3</h3>
+                    <img src="Develope\images\mediccc.PNG" alt="Medical Symbols Banner" class=""/>
+                    <p class=""><div class="">THANGS</div></p>
+            </article>
+        </section>
             
-            <section id="contact" class="">
-                <img src="..." <--class="float-left" alt="..." />
-                <h2>Contact Me</h2>
-                <nav>
-                    <ul>
-                        <li><a href="charlene.kim927@gmail.com">Email</a></li>
-                        <li><a href="https://github.com/VAalchemist">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/charlene-kim-1a9a72226/">Linked In</a></li>
-                    </ul>
-                </nav>
-            </section>
-        </main>
-
+        <section id="contact" class="">
+            <img src="..." <--class="float-left" alt="..." />
+            <h2>Contact Me</h2>
+            <nav>
+                <ul>
+                    <li><a href="charlene.kim927@gmail.com">Email</a></li>
+                    <li><a href="https://github.com/VAalchemist">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/charlene-kim-1a9a72226/">Linked In</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
         
-        <footer class="">
-            <h4>Made with 🤖 by Me</h4>
-            <p>
+    <footer class="bio-font2 text-sm flex justify-between m-4">
+        <h4>Made with 🤖 by Me</h4>
+        <p>
                 &copy; 2022 Coding Conjurer, Inc.
-            </p>
-        </footer> -->
+        </p>
+    </footer>
+
+        <!-- back to top button -->        
+    <div class="fixed right-0 bottom-0">
+        <a href="#" id="back2top" class="text-gray-400 hover:text-green-200 ">
+        <span class="hidden">Back to Top</span>
+        <svg class="" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.5em"
+                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+        <g fill="none">
+        <path d="M12 3l9 7h-4.99L16 21H8V10H3l9-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        </svg>
+        </a>
+    </div>
+    
     
     <script>/* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
@@ -106,5 +131,5 @@ toggle between hiding and showing the dropdown content */
             }
         }
     </script>
-    </body>
-    </html>
+</body>
+</html>
