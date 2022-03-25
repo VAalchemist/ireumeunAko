@@ -3,79 +3,140 @@
     
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Develope\css\style.css">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    
     <title>Totally Professional</title>
+    <link rel="stylesheet" href="Develope/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Dosis:wght@200&family=Inspiration&family=Kaushan+Script&family=Quattrocento+Sans&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
 </head>
     
-    <body>
+<body class="bg-fixed bg-no-repeat bg-cover bg-center bio-font text-indigo-300" style="background-image: url(Develope/images/bg1.png);">
+
         <!--=== HEADER/NAV BAR ===-->
-        <header class="header">
-            <h1>Charlene Kim</h1>
-            <nav> 
-                <img src="Develope\images\thouHeader.png" alt="Me and My Cats" class="myPhoto"/>
-                <ul>
-                    <li><a href="#about">🌟About Me</a></li>
-                    <li><a href="#work">🌟My Work</a></li>
-                    <li><a href="#contact">🌟Contact Me</a></li>
+<header class="dropdown w-full flex justify-center justify-between mb-96 px-4 py-3 border-b-4 border-gray-800 ">
+    <div class="px-2 w-full">
+        <nav class=" flex items-center justify-between ">
+            <img src="Develope\images\intial2.png" alt="my initials" class="w-24 h-20 rounded-full" />
+            <button type="button" onclick="myFunction()" class="text-blue-300 hover:text-gray-400">
+                <svg class="dropbtn fill-current mr-4" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M1.5 3a.5.5 0 0 0 0 1h12a.5.5 0 0 0 0-1h-12ZM1 7.5a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1h-12a.5.5 0 0 1-.5-.5Zm0 4a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1h-12a.5.5 0 0 1-.5-.5Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+
+            <div id="myDropdown" class="dropdown-content bio-font5 text-gray-500 text-center text-sm font-bold pl-14 pt-24 mt-4 right-0">
+                <a href="#about" class="hover:text-indigo-100">About Me</a>
+                <a href="#work" class="hover:text-indigo-100">My Work</a>
+                <a href="#contact" class="hover:text-indigo-100">Contact Me</a>
+            </div>
+        </nav>
+
+        <section class="relative my-8 py-24 md:py-16 md:my-12 lg:my-32">
+            <h1 class="text-7xl text-blue-200 text-center bio-font4 md:pb-12">Greetings, I'm Charlene!</h1>
+
+            <div class="flex md:my-16 lg:my-20">                
+                <div
+                    class="absolute right-0 border-4 border-gray-800 rounded-t-full flex justify-center items-center md:w-48 md:mr-8 lg:mr-12 lg:w-72">
+                    <img src="/Develope/images/auto bio.jpg" class=" md:w-48 lg:w-72  w-32 rounded-t-full" />
+                </div>
+            </div>
+        </section>
+    </div>
+</header>
+        
+    <main class="px-8">
+        <section id="about" class="pt-32 mt-28">
+        <h2 class="text-4xl text-blue-900 bio-font3 m-8">About Me</h2>
+        <div class="border-l-2 border-b-2 border-gray-900">
+            <p class=" bio-font2 text-indigo-200 leading-7 md:text-center m-12">
+                From the eclectic array of interests I acquired<br> throughout the decades of my existence,<br> full stack
+                development has eagerly entered<br> my arsenal of skills. Some of the other interests<br> I skillfully enjoy
+                are:singing, sewing and gaming!
+            </p>
+        </div>
+        </section>
+
+        <section id="work" class="pt-20 my-56 md:my-96">
+            <h2 class="text-4xl text-blue-900 bio-font3 m-8">My Work</h2>
+            <div class="border-l-2 border-b-2 border-gray-900 ">
+                <article class="flex flex-col justify-center items-center m-12">
+                    <a href="https://vaalchemist.github.io/KLEC-search-inc/"
+                        class="bio-font6 text-xl text-gray-500 hover:text-green-200 mb-6">Check out my CSS work on this app!</a>
+                    <img class="rounded-xl lg:w-2/5" src="/Develope/images/mockup2.png" alt="pokedex app" />
+                </article>
+                
+                <article class="flex flex-col justify-center items-center m-12">
+                    <a href="construction.html" class="bio-font6 text-xl text-gray-500 hover:text-green-200 mb-6">Here's a portfolio I
+                        did!</a>
+                    <img src="/Develope/images/kuya headshot.jpg" alt="Charlie Kim Headshot" class="rounded-xl sm:w-52" />
+                </article>
+                
+                <article class="flex flex-col justify-center items-center m-12">
+                    <a href="construction.html" class="bio-font6 text-xl text-gray-500 hover:text-green-200 mb-6">This cool a game I helped on!</a>
+                    <img src="/Develope/images/gamu.png" alt="ps1 controller" class="rounded-xl" />
+                </article>
+            </div>
+        </section>
+            
+        <section id="contact" class="pt-20 my-56">
+            <h2 class="mb-6 text-4xl text-blue-900 bio-font3 m-8">Contact Me</h2>
+            <nav class=" bio-font5 text-indigo-300 border-l-2 border-b-2 border-gray-900">
+                <ul class="m-12 text-center">
+                    <li class="py-4 px-12 text-lg  hover:text-red-100"><a href="mailto:charlene.kim927@gmail.com">Email: charlene.kim927@gmail.com</a></li>
+                    <li class="py-4 px-12 text-lg hover:text-red-100"><a href="https://github.com/VAalchemist">GitHub: VAalchemist</a></li>
+                    <li class="py-4 px-12 text-lg hover:text-red-100"><a href="https://www.linkedin.com/in/charlene-kim-1a9a72226/">Linked In: charlene-kim-1a9a72226</a></li>
                 </ul>
             </nav>
-        </header>
+        </section>
+    </main>
         
-        <section class="hero"></section>
-        
-        <main class="content"> 
-            <section id="about" class="about">
-                 <h2>About Me</h2>
-                    <p>
-                        THANGS
-                    </p>
-            </section>
-            
-            <section id="work" class="work">
-                <!-- <img src="..." <-- class="float-right" alt="..." /> -->
-                <h2>My Work</h2>
-                    <article class="container">
-                        <h3>JOB1</h3>
-                        <img src="Develope\images\thoseGames.PNG"  alt="Game Consoles and Controllers" class="image"/>
-                        <p class="overlay"><div class="text">THANGS</div></p>
-                    </article>
-                
-                    <article class="container">
-                        <h3>JOB2</h3>
-                        <a href="https://www.charliekimmusician.com/"><img src="Develope\images\profeshh.PNG" alt="Charlie Kim Headshot" class="image"/></a>
-                        <p class="overlay"><div class="text">THANGS</div></p>
-                    </article>
-                
-                    <article class="container">
-                        <h3>JOB3</h3>
-                        <img src="Develope\images\mediccc.PNG" alt="Medical Symbols Banner" class="image"/>
-                        <p class="overlay"><div class="text">THANGS</div></p>
-                </article>
-            </section>
-            
-            <section id="contact" class="contact">
-                <!-- <img src="..." <--class="float-left" alt="..." /> -->
-                <h2>Contact Me</h2>
-                <nav>
-                    <ul>
-                        <li><a href="charlene.kim927@gmail.com">Email</a></li>
-                        <li><a href="https://github.com/VAalchemist">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/charlene-kim-1a9a72226/">Linked In</a></li>
-                    </ul>
-                </nav>
-            </section>
-        </main>
-     
-        
-        <footer class="footer">
-            <h4>Made with 🤖 by Me</i>️</h4>
-            <p>
+    <footer class="bio-font2 text-sm flex justify-between mx-12 my-2">
+        <h4>Made with 🤖 by Me</h4>
+        <p>
                 &copy; 2022 Coding Conjurer, Inc.
-            </p>
-        </footer>
+        </p>
+    </footer>
+
+        <!-- back to top button -->        
+    <div class="fixed right-1.5 bottom-1 md:right-5 md:bottom-5 lg:right-10 lg:bottom-10">
+        <a href="#" id="back2top" class="text-gray-400 hover:text-green-200 ">
+        <span class="hidden">Back to Top</span>
+        <svg class="" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.5em" height="1.5em"
+                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+        <g fill="none">
+        <path d="M12 3l9 7h-4.99L16 21H8V10H3l9-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        </svg>
+        </a>
+    </div>
     
-    </body>
-    </html>
+    
+    <script>/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

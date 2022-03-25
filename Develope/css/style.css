@@ -1,121 +1,46 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.bio-font{
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 
-body {
-    background-color: #648b8b;
+.bio-font2{
+  font-family: 'Raleway', sans-serif;
 }
 
-.header {
-  display: flex;
-  padding: 20px;
-  font-family: 'Lucida Console', 'Courier New', Courier, monospace;
-  /* background-color: #2a607c;
-  color: #ffffff; */
+.bio-font3{
+  font-family: 'Kaushan Script', cursive;
 }
 
-.header h1 {
-    display: inline-block;
-    color: #471616;
-    font-size: 50px;
-    font-family: 'Lucida Handwriting', cursive;
+.bio-font4{
+  font-family: 'Inspiration', cursive;
 }
 
-.header a { 
-  font-size: 13px;
-  color: #471616;
-  text-decoration: none;
+.bio-font5{
+  font-family: 'Dosis', sans-serif;
 }
 
-.header a:hover {  
-  color:rgb(141, 110, 110);
-  text-decoration: none;
+.bio-font6{
+  font-family: 'Acme', sans-serif;
 }
 
-.header nav {
-  height: 150px;
-  margin-left: auto;
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
-  font-family:  'Lucida Console', 'Courier New', Courier, monospace;
-  font-size: 15px;
-}
-
-.myPhoto {
-  height: 250px;
-  width: auto;
-  float: left;
-  padding-right: 20%;
-  margin: 0 auto;
-  padding: 10px 0;
-}
-
-.header nav ul li {
-  list-style-type: none;
+.dropdown {
+  position: relative;
   display: inline-block;
-  margin-left: 5px;
 }
 
-p {
-  font-size: 16px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 1;
+}
+    
+.dropdown-content a {
+  padding: 4px 8px;
+  text-decoration: none;
+  display: block;
 }
 
-.hero {
-  height: 400px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("Develope/images/thisLife.png");
-  background-size: cover;
-  background-position: center;
+.show {
+  display: block;
 }
-
-
-
-
-
-
-
-
-.footer {
-  padding: 30px;
-  clear: both;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
-}
-
-.footer h2 {
-  font-size: 20px;
-}
-   
-
-/*  */
-
-
-
-
-/* 
-img {
-    opacity:0.4;
-    filter:alpha(opacity=40); 
-  }
-  img:hover {
-    opacity:1.0;
-    filter:alpha(opacity=100); 
-  }
-
-  img {
-    opacity: 0.5;
-    filter: alpha(opacity=40);
-}
-
-img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-}
-
-<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Colossoma_macropomum_01.jpg/800px-Colossoma_macropomum_01.jpg" /> */
