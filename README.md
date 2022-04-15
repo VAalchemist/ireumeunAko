@@ -33,5 +33,5 @@ THEN I am presented with a responsive layout that
 adapts to my viewport.
 ```
  `Check it out` [here!](https://vaalchemist.github.io/ireumeunAko/)
-![drowning lego man](https://raw.githubusercontent.com/VAalchemist/ireumeunAko/main/Develope/images/thisLife.png)
+![drowning lego man](https://raw.githubusercontent.com/VAalchemist/ireumeunAko/main/assets/images/thisLife.png)
 

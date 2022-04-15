@@ -1,0 +1,20 @@
+{
+  "name": "ireumeunako",
+  "version": "1.0.0",
+  "description": "### Being half Korean and half Filipino, I took half of each greeting from each side of my ethnicity's mother tongue as inspiration. ``` In tagalog, ang pangalan ko,  is how to say, \"my name is\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VAalchemist/ireumeunAko.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VAalchemist/ireumeunAko/issues"
+  },
+  "homepage": "https://github.com/VAalchemist/ireumeunAko#readme"
+}
